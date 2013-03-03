@@ -1,0 +1,42 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    columnize (0.3.6)
+    debugger (1.3.3)
+      columnize (>= 0.3.1)
+      debugger-linecache (~> 1.1.1)
+      debugger-ruby_core_source (~> 1.2.0)
+    debugger-linecache (1.1.2)
+      debugger-ruby_core_source (>= 1.1.1)
+    debugger-ruby_core_source (1.2.0)
+    diff-lcs (1.2.1)
+    rack (1.5.2)
+    rack-nullsession (0.0.1)
+      rack
+    rack-test (0.6.2)
+      rack (>= 1.0)
+    rake (10.0.3)
+    rspec (2.13.0)
+      rspec-core (~> 2.13.0)
+      rspec-expectations (~> 2.13.0)
+      rspec-mocks (~> 2.13.0)
+    rspec-core (2.13.0)
+    rspec-expectations (2.13.0)
+      diff-lcs (>= 1.1.3, < 2.0)
+    rspec-mocks (2.13.0)
+    warden (1.2.1)
+      rack (>= 1.0)
+    warden-always-authenticate (0.0.2)
+      warden
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  debugger
+  rack-nullsession
+  rack-test
+  rake
+  rspec
+  warden
+  warden-always-authenticate
